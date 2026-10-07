@@ -1,0 +1,75 @@
+# Gradle
+.gradle/
+build/
+app/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Kotlin
+*.kt.class
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.so
+*.o
+*.obj
+*.orig
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Test reports
+app/build/reports/
+app/build/outputs/
+
+# Keystore
+*.jks
+*.keystore
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
