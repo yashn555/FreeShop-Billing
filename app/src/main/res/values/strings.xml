@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreeShop Billing</string>
+    <string name="landing_tagline">Professional invoicing for your business</string>
+    <string name="create_a_shop">Create a Shop</string>
+    <string name="login_to_existing_shop">Login to Existing Shop</string>
+
+    <!-- Register Screen -->
+    <string name="title_create_shop">Create Shop</string>
+    <string name="label_shop_name_req">Shop Name *</string>
+    <string name="label_email_req">Email *</string>
+    <string name="label_password_req">Password * (min 6)</string>
+    <string name="label_confirm_password_req">Confirm Password *</string>
+    <string name="btn_creating">Creating...</string>
+    <string name="btn_create_shop">Create Shop</string>
+    <string name="error_shop_name_required">Shop name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_min_len">Password must be at least 6 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_email_registered">Email already registered</string>
+
+    <!-- Login Screen -->
+    <string name="title_login">Login</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="btn_logging_in">Logging in...</string>
+    <string name="btn_login">Login</string>
+    <string name="error_credentials_required">Email and password required</string>
+    <string name="error_invalid_credentials">Invalid email or password</string>
+
+    <!-- Dashboard Screen -->
+    <string name="title_new_bill">New Bill</string>
+    <string name="title_new_quotation">New Quotation</string>
+    <string name="type_invoice">Invoice</string>
+    <string name="type_quotation">Quotation</string>
+    <string name="section_customer">Customer</string>
+    <string name="hint_customer_name">Customer Name (blank = Walk-in)</string>
+    <string name="hint_customer_phone">Phone</string>
+    <string name="hint_customer_gstin">GSTIN</string>
+    <string name="hint_customer_address">Address</string>
+    <string name="walk_in_customer">Walk-in Customer</string>
+
+    <string name="section_items">Items</string>
+    <string name="col_item_name">Name</string>
+    <string name="col_item_hsn">HSN</string>
+    <string name="col_item_qty">Qty</string>
+    <string name="col_item_rate">Rate</string>
+    <string name="col_item_tax">Tax%</string>
+    <string name="col_item_total">Total</string>
+    <string name="btn_add_row">+ Add Row</string>
+
+    <string name="section_bill_details">Bill Details</string>
+    <string name="section_quotation_details">Quotation Details</string>
+    <string name="hint_bill_no_req">Bill No *</string>
+    <string name="hint_quotation_no_req">Quotation No *</string>
+    <string name="hint_date">Date (DD/MM/YYYY)</string>
+    <string name="hint_discount">Discount</string>
+    <string name="hint_payment_mode">Payment Mode</string>
+    <string name="hint_received">Received (blank = total)</string>
+    <string name="hint_notes">Notes</string>
+
+    <string name="btn_reset">Reset</string>
+    <string name="btn_generate">Generate</string>
+    <string name="title_summary">Summary</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_discount">Discount</string>
+    <string name="label_total">TOTAL</string>
+    <string name="label_received">Received</string>
+    <string name="label_balance">Balance</string>
+    <string name="saved_as_pdf">Saved as PDF</string>
+
+    <string name="dialog_reset_title">Reset Form</string>
+    <string name="dialog_reset_message">Clear all entries and start a new bill?</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Bills Screen -->
+    <string name="title_bills_history">Bills History</string>
+    <string name="hint_search_bills">Search by bill no or customer</string>
+    <string name="chip_all_docs">All Docs</string>
+    <string name="chip_invoices">Invoices</string>
+    <string name="chip_quotations">Quotations</string>
+    <string name="chip_all_status">All Status</string>
+    <string name="chip_paid">Paid</string>
+    <string name="chip_partial">Partial</string>
+    <string name="chip_unpaid">Unpaid</string>
+    <string name="btn_from_date">From Date</string>
+    <string name="btn_to_date">To Date</string>
+    <string name="no_bills_yet">No bills yet</string>
+    <string name="no_matching_bills">No matching bills</string>
+    <string name="badge_quotation">QUOTATION</string>
+    <string name="label_converted">Converted</string>
+    <string name="btn_view">View</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_delete">Delete</string>
+    <string name="dialog_delete_bill_title">Delete Bill</string>
+    <string name="dialog_delete_bill_msg">Delete bill \'%1$s\'? This cannot be undone.</string>
+    <string name="toast_bill_deleted">Bill deleted</string>
+    <string name="toast_converted_to_invoice">Converted to Invoice</string>
+
+    <!-- Customers Screen -->
+    <string name="title_customers">Customers</string>
+    <string name="section_add_customer">Add Customer</string>
+    <string name="label_customer_name_req">Name *</string>
+    <string name="btn_add_customer">Add Customer</string>
+    <string name="no_customers_yet">No customers yet</string>
+    <string name="dialog_delete_customer_title">Delete Customer</string>
+    <string name="dialog_delete_customer_msg">Delete \'%1$s\'?</string>
+    <string name="toast_customer_added">Customer added</string>
+    <string name="toast_customer_deleted">Customer deleted</string>
+
+    <!-- Items Screen -->
+    <string name="title_items">Items / Products</string>
+    <string name="section_add_item">Add Item</string>
+    <string name="label_item_name_req">Name *</string>
+    <string name="label_item_unit">Unit</string>
+    <string name="label_item_hsn">HSN</string>
+    <string name="label_item_price_req">Price *</string>
+    <string name="label_item_tax_rate">Tax %</string>
+    <string name="btn_add_item">Add Item</string>
+    <string name="no_items_yet">No items yet</string>
+    <string name="dialog_delete_item_title">Delete Item</string>
+    <string name="dialog_delete_item_msg">Delete \'%1$s\'?</string>
+    <string name="toast_item_added">Item added</string>
+    <string name="toast_item_deleted">Item deleted</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">Settings</string>
+    <string name="section_business_identity">Business Identity</string>
+    <string name="btn_change_logo">Change Logo</string>
+    <string name="section_address">Address</string>
+    <string name="label_street_address">Street Address</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_pincode">Pincode</string>
+    <string name="section_billing_preferences">Billing Preferences</string>
+    <string name="label_invoice_prefix">Invoice Prefix (e.g. INV-)</string>
+    <string name="label_next_invoice_no">Next Invoice No: %1$d</string>
+    <string name="label_enable_tax">Enable Tax</string>
+    <string name="label_tax_label">Tax Label</string>
+    <string name="label_tax_rate">Tax Rate %</string>
+    <string name="section_bank_details">Bank Details</string>
+    <string name="label_bank_name">Bank Name</string>
+    <string name="label_account_number">Account Number</string>
+    <string name="label_ifsc_code">IFSC Code</string>
+    <string name="label_upi_id">UPI ID</string>
+    <string name="section_terms">Terms &amp; Conditions</string>
+    <string name="label_terms">Terms</string>
+    <string name="btn_save_settings">Save Settings</string>
+    <string name="btn_saving_settings">Saving...</string>
+    <string name="toast_settings_saved">Settings saved</string>
+
+    <!-- General / Navigation / Actions -->
+    <string name="menu_customers">Customers</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_bills">Bills</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="action_open_pdf">Open PDF</string>
+    <string name="action_share_bill">Share Bill</string>
+</resources>

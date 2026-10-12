@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_customers"
+        android:icon="@drawable/ic_people"
+        android:title="@string/menu_customers"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_items"
+        android:icon="@drawable/ic_inventory"
+        android:title="@string/menu_items"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_bills"
+        android:icon="@drawable/ic_receipt"
+        android:title="@string/menu_bills"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/menu_logout"
+        app:showAsAction="ifRoom" />
+
+</menu>

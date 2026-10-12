@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <!-- Name with Autocomplete -->
+    <AutoCompleteTextView
+        android:id="@+id/actvItemName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="2.2"
+        android:background="@drawable/bg_input_small"
+        android:completionThreshold="1"
+        android:hint="@string/col_item_name"
+        android:imeOptions="actionNext"
+        android:paddingHorizontal="8dp"
+        android:singleLine="true"
+        android:textColor="@color/TextDark"
+        android:textSize="13sp" />
+
+    <!-- HSN -->
+    <EditText
+        android:id="@+id/etItemHsn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_input_small"
+        android:hint="@string/col_item_hsn"
+        android:imeOptions="actionNext"
+        android:paddingHorizontal="6dp"
+        android:singleLine="true"
+        android:textColor="@color/TextDark"
+        android:textSize="12sp" />
+
+    <!-- Qty -->
+    <EditText
+        android:id="@+id/etItemQty"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/bg_input_small"
+        android:gravity="center"
+        android:hint="@string/col_item_qty"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="4dp"
+        android:singleLine="true"
+        android:textColor="@color/TextDark"
+        android:textSize="12sp" />
+
+    <!-- Rate -->
+    <EditText
+        android:id="@+id/etItemRate"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/bg_input_small"
+        android:gravity="end|center_vertical"
+        android:hint="@string/col_item_rate"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="6dp"
+        android:singleLine="true"
+        android:textColor="@color/TextDark"
+        android:textSize="12sp" />
+
+    <!-- Tax% (visible if tax enabled) -->
+    <EditText
+        android:id="@+id/etItemTaxRate"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/bg_input_small"
+        android:gravity="center"
+        android:hint="@string/col_item_tax"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="4dp"
+        android:singleLine="true"
+        android:textColor="@color/TextDark"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- Total -->
+    <TextView
+        android:id="@+id/tvLineTotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1.1"
+        android:gravity="end"
+        android:text="Rs 0"
+        android:textColor="@color/TextDark"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Remove -->
+    <ImageButton
+        android:id="@+id/btnRemoveItem"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_close"
+        app:tint="@color/DangerRed" />
+
+</LinearLayout>

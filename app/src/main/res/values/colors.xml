@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AccentNavy">#0F3D91</color>
+    <color name="AccentNavyDark">#0A2D6E</color>
+    <color name="BgBlue">#F3F6FB</color>
+    <color name="CardWhite">#FFFFFF</color>
+    <color name="LineBlue">#D9E2EE</color>
+    <color name="TextDark">#0F172A</color>
+    <color name="TextMuted">#5B6B82</color>
+    <color name="DangerRed">#C0392B</color>
+    <color name="OkGreen">#15803D</color>
+    <color name="SummaryBg">#EEF3FB</color>
+    <color name="SegmentedBg">#E2E8F0</color>
+
+    <!-- Chip / Status colors -->
+    <color name="PaidBg">#E8F7EE</color>
+    <color name="PaidText">#15803D</color>
+    <color name="PartialBg">#FEF3C7</color>
+    <color name="PartialText">#B45309</color>
+    <color name="UnpaidBg">#FDEAEA</color>
+    <color name="UnpaidText">#C0392B</color>
+
+    <!-- Material standard aliases -->
+    <color name="colorPrimary">#0F3D91</color>
+    <color name="colorPrimaryDark">#0A2D6E</color>
+    <color name="colorAccent">#0F3D91</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
